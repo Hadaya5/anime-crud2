@@ -11,7 +11,7 @@ export const AnimeForm = () => {
 
     const {animeState, setAnimeState} = useContext(AnimeContext);
 
-    const [alertOpen, setAlertOpen] = useState(true)
+    const [alertOpen, setAlertOpen] = useState(false)
 
     const handleSubmit = (e) => {
         e.preventDefault()
